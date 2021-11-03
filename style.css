@@ -1,0 +1,94 @@
+body{
+    background-color: white;
+}
+
+
+.maindiv{
+    width: 70%;
+    height: 600px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:  translate(-50% ,-50%);
+    
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 15px rgb(14, 13, 13);
+    animation: slider 13s infinite linear;
+    text-align: center;
+    
+}
+.heading{
+    font-size: 3vw;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 4px 1px rgb(14, 13, 13) ;
+    margin-left: 30%;
+    margin-right: 30%; 
+    padding: 5px;
+}
+/* .circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    
+    font-size:22px;
+    text-align: center;
+    padding: 15px;
+    border: 2px solid black ; 
+    
+  } */
+  .num{
+    font-size: 3vw; 
+    margin : 20px; 
+    margin-left: 25px;
+
+    
+  }
+  .text {
+    margin: 15px;
+    font-size: 1.9vw;
+  }
+  .one{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 4px 2px 5px rgb(14, 13, 13);
+    
+    /* justify-content: center; */
+    margin-left: 10%;
+    border: 2px solid black; 
+    /* border-left: none;  */
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin-top: 30px;
+    margin-right: 20%;
+    
+  }
+  .two{
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black ; 
+  box-shadow: 4px 2px 5px rgb(14, 13, 13);
+  /* border-left: none;  */
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  margin-top: 30px;
+  margin-left: 25%;
+  margin-right: 5%;
+}
+
+@media screen and (max-width: 600px) {
+  .two 
+  {
+      margin-left: 10%;
+      margin-right: 10%;
+  }
+  .one{
+      margin-right: 10%;
+  }
+}
+  
+
